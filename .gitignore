@@ -1,0 +1,17 @@
+.env
+
+/mongo
+/postgres
+node_modules/
+dist/
+build/
+coverage/
+
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.log
+*audit.json
