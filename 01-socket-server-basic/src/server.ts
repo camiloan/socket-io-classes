@@ -6,6 +6,7 @@ import { configureSockets } from "./sockets";
 const PORT = process.env.PORT || 3020;
 
 const httpServer = createServer(app);
+
 const io = new SocketIOServer(httpServer, {
   cors: {
     origin: "*", // ajusta según tu frontend
